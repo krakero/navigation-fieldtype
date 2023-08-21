@@ -1,0 +1,27 @@
+{
+    "name": "krakero/navigation-fieldtype",
+    "autoload": {
+        "psr-4": {
+            "Krakero\\NavigationFieldtype\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Navigation Fieldtype",
+            "description": "Navigation Fieldtype addon"
+        },
+        "laravel": {
+            "providers": [
+                "Krakero\\NavigationFieldtype\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "statamic/cms": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    }
+}
